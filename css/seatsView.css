@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    width: 100%;
+    padding: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.stage{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content a{
+    width: 3rem;
+    height: 3rem;
+
+    display: grid;
+    place-content: center;
+
+    font-size: 1.5rem;
+    text-decoration: none;
+}
