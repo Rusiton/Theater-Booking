@@ -19,7 +19,9 @@ body{
 }
 
 .stage{
-    width: 100%;
+    margin: 1rem;
+    width: 80%;
+    height: 10rem;
 
     display: flex;
     flex-wrap: wrap;
@@ -27,7 +29,17 @@ body{
     align-items: center;
 }
 
-.content a{
+.seats {
+    margin: 1rem;
+    width: 70%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.seats a, p{
     width: 3rem;
     height: 3rem;
 

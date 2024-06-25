@@ -23,19 +23,19 @@
 
             if($data['password'] == $password){
 
-                $_SESSION['tb-userID'] = $data['user_id'];
+                $_SESSION['tb-userID'] = $data['id_usuario'];
                 header("Location:../views/main.php");
                 exit();
                 
             }
             else{
-                header("Location:login.php?wrongPassword");
+                header("Location:../views/login.php?wrongPassword");
                 exit();
             }
 
         }
         else{
-            header("Location:login.php?wrongEmail");
+            header("Location:../views/login.php?wrongEmail");
             exit();
         }
 
@@ -44,4 +44,5 @@
         header("Location:../views/login.php");
         exit();
     }
+
 ?>

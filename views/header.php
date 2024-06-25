@@ -1,3 +1,15 @@
+<?php
+
+    session_start();
+
+    if(!isset($_SESSION['tb-userID'])){
+
+        header("Location:login.php");
+        exit();
+
+    }
+
+?>
 <header>
     <link rel="stylesheet" href="../css/header.css">
 
