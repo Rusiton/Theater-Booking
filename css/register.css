@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    width: 30%;
+    height: 80%;
+
+    border: 1px solid black;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.form-container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+.form-container form input[type="email"], [type="password"]{
+    width: 80%;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.form-container form input[type="submit"]{
+    border-radius: 2rem;
+
+    width: 50%;
+    height: 3rem;
+}

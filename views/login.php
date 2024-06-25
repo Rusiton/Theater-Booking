@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>  
     <div class="form-container">
-        <h1>Inicio de sesión</h1>
+        <h1 style="width: 100%; text-align: center;">Inicio de sesión</h1>
         <?php	
 
             if(isset($_GET['wrongEmail'])){
